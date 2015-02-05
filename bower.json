@@ -1,0 +1,27 @@
+{
+  "name": "webBuild",
+  "version": "0.0.0",
+  "authors": [
+    "David Maran <david@figcreative.co.uk>"
+  ],
+  "description": "Setup for web team",
+  "keywords": [
+    "base",
+    "web",
+    "wordpress",
+    "html",
+    "sass"
+  ],
+  "license": "MIT",
+  "homepage": "http://www.figdigital.co.uk",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "csswizardry-grids": "~2.2.0"
+  }
+}
