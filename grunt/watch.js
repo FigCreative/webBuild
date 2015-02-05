@@ -1,8 +1,18 @@
 module.exports = {
- configFiles: {
-    files: [ 'Gruntfile.js', 'js/*.js', 'scss/*.scss' ],
-    options: {
-      reload: true
+  grunt: { 
+                files: ['gruntfile.js'],
+                tasks: ['default'], 
+            },
+            sass: {
+                files: ['scss/*.scss'],
+                tasks: ['sass']
+            },
+            css: {
+                files: ['html/assets/css/style.css'],
+                tasks: ['cssmin']
+            },
+            options: {
+      livereload: true,
     }
   }
-  }
+
