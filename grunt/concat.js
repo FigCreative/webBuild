@@ -1,6 +1,6 @@
 module.exports = {
   dist: {
-    src: ['src/js/jquery.js', 'src/js/intro.js', 'src/js/main.js', 'src/js/outro.js'],
-    dest: 'dist/build.js',
+    src: ['js/*.js', 'bower_components/jquery/dist/jquery.js', 'bower_components/modernizr/modernizr.js'],
+    dest: 'html/assets/js/build.js',
   }
 };

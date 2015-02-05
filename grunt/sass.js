@@ -1,12 +1,10 @@
 module.exports = {
-    dist: {
-      files: [{
-        expand: true,
-        cwd: 'styles',
-        src: ['*.scss'],
-        dest: '../public',
-        ext: '.css'
-      }]
+  dist: {                            // Target
+      options: {                       // Target options
+        style: 'expanded'
+      },
+      files: {                         // Dictionary of files
+        'html/assets/css/style.css': 'scss/style.scss'
+      }
     }
-
 };

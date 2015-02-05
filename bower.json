@@ -22,6 +22,9 @@
     "tests"
   ],
   "dependencies": {
-    "csswizardry-grids": "~2.2.0"
+    "csswizardry-grids": "~2.2.0",
+    "jquery": "*",
+    "normalize-scss": "*",
+    "modernizr": "~2.8.3"
   }
 }
