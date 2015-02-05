@@ -2,5 +2,6 @@ default:
   - 'jshint'
   - 'concat'
   - 'uglify'
+  - 'sass'
   - 'imagemin'
 
