@@ -1,12 +1,6 @@
 /******************************************************************
-Theme Name: Fig Digital
-Theme URI: http://www.figdigital.co.uk;
-Description: The Fig Digital Team
-Author URI: http://www.figdigital.couk
-Version: 0.0.1
-Tags: digital, theme, fig, creative
 ********************************************************************/
 
 @import "../bower_components/normalize-scss/normalize";
 @import "../bower_components/csswizardry-grids/csswizardry-grids.scss";
-body { font-size:12px; }
+body { max-width:1200px; margin:auto;}
