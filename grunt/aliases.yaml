@@ -1,7 +1,7 @@
 default:  
-  - 'jshint'
-  - 'concat'
-  - 'uglify'
-  - 'sass'
-  - 'imagemin'
+  - 'newer:jshint'
+  - 'newer:concat'
+  - 'newer:uglify'
+  - 'newer:sass'
+  - 'newer:imagemin'
 
