@@ -3,5 +3,6 @@ default:
   - 'newer:concat'
   - 'newer:uglify'
   - 'newer:sass'
+  - 'newer:cssmin'
   - 'newer:imagemin'
 
