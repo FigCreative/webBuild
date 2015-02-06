@@ -9,52 +9,197 @@
 	<title>Your Website</title>
 	<link rel="stylesheet" href="assets/css/style.css" />
 	<!-- minified version <link rel="stylesheet" href="css/style.min.css" /> -->
+	<style>
+	.demo-block { background-color:#b00; padding:20px;}
+	</style>
 </head>
 
 <body>
-<div class="grid">
-	<div class="grid__item  lap--one-half  desk--two-thirds">
-	<header>
-		<nav>
-			<ul>
-				<li>Your menu</li>
-			</ul>
-		</nav>
-	</header>
-	</div>
-	<div class="grid__item  lap--one-half  desk--one-half ">
-	<section>
-	
-		<article>
-			<header>
-				<h2>Article title</h2>
-				<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
-			</header>
-			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-		</article>
-		
-		<article>
-			<header>
-				<h2>Article title</h2>
-				<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
-			</header>
-			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
-		</article>
-		
-	</section>
-</div>
-	<aside>
-		<h2>About section</h2>
-		<p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
-	</aside>
+<!--  Navigation Mobile -->
+<nav class="nav-collapse">
+    <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Projects</a></li>
+       <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
 
-	<footer>
-		<p>Copyright 2009 Your name</p>
-	</footer>
+<!--  Navigation Slider -->
+<ul class="rslides">
+    <li><img src="http://placehold.it/350x151" alt=""></li>
+    <li><img src="http://placehold.it/350x152" alt=""></li>
+    <li><img src="http://placehold.it/350x153" alt=""></li>
+</ul>
 
-  <script src="assets/js/build.js"></script>
-  <!-- minified version <script src="js/build.min.js"></script> -->
- </div>
+	<div class="grid">
+
+        <div class="grid__item  one-half  palm--one-whole">
+
+            <div class="grid"> 
+                <div class="grid__item">
+                    <p class="demo-block">Grid 1.1</p>
+                </div><!--
+
+             --><div class="grid__item  lap--one-whole  one-third">
+                    <p class="demo-block">Grid 1.2</p>
+                </div><!--
+
+             --><div class="grid__item  lap--one-whole  two-thirds">
+                    <p class="demo-block">Grid 1.3</p>
+                </div>
+
+            </div>
+
+        </div><!--
+
+     --><div class="grid__item  one-half  palm--one-whole">
+        
+            <div class="grid">
+
+                <div class="grid__item  one-half">
+                    <p class="demo-block">Grid 2.1</p>
+                </div><!--
+
+             --><div class="grid__item  one-half">
+                    <p class="demo-block">Grid 2.2</p>
+                </div><!--
+
+             --><div class="grid__item  lap--one-half  desk--one-third">
+                    <p class="demo-block">Grid 2.3</p>
+                </div><!--
+
+             --><div class="grid__item  lap--one-half  desk--one-third">
+                    <p class="demo-block">Grid 2.4</p>
+                </div><!--
+
+             --><div class="grid__item  desk--one-third">
+                    <p class="demo-block">Grid 2.5</p>
+                </div>
+
+            </div>
+
+        </div><!--
+
+     --><div class="grid__item  one-quarter  palm--one-half  push--palm--one-quarter">
+            <p class="demo-block">Grid 3.0</p>
+        </div><!--
+
+     --><div class="grid__item  three-quarters  palm--one-whole">
+
+            <div class="grid  grid--rev">
+
+                <div class="grid__item  one-half  palm--two-fifths">
+                    <p class="demo-block">Grid 4.1</p>
+                </div><!--
+
+             --><div class="grid__item  one-half  palm--two-fifths">
+                    <p class="demo-block">Grid 4.2</p>
+                </div>
+
+            </div>
+
+        </div><!--
+
+     --><div class="grid__item">
+
+            <div class="grid  grid--full">
+
+                <div class="grid__item  palm--one-half  lap--one-half  desk--one-quarter">
+                    <p class="demo-block">Grid 5.1</p>
+                </div><!--
+
+             --><div class="grid__item  palm--one-half  lap--one-half  desk--one-quarter">
+                    <p class="demo-block">Grid 5.2</p>
+                </div><!--
+
+             --><div class="grid__item  palm--three-fifths  lap--one-quarter  desk--one-quarter  push--lap--one-quarter">
+                    <p class="demo-block">Grid 5.3</p>
+                </div><!--
+
+             --><div class="grid__item  palm--two-fifths  lap--one-quarter  desk--one-quarter  push--lap--one-quarter">
+                    <p class="demo-block">Grid 5.4</p>
+                </div>
+
+            </div>
+
+        </div><!--
+
+     --><div class="grid__item">
+
+            <div class="grid  grid--rev  grid--full">
+
+                <div class="grid__item  palm--three-fifths  lap--one-quarter  desk--one-quarter">
+                    <p class="demo-block">Grid 6.1</p>
+                </div><!--
+
+             --><div class="grid__item  palm--two-fifths  lap--one-quarter  desk--one-quarter  push--lap--one-half">
+                    <p class="demo-block">Grid 6.2</p>
+                </div><!--
+
+             --><div class="grid__item  lap--one-whole  desk--one-quarter">
+                    <p class="demo-block">Grid 6.3</p>
+                </div><!--
+
+             --><div class="grid__item  lap--one-half  desk--one-quarter  push--lap--one-quarter">
+                    <p class="demo-block">Grid 6.4</p>
+                </div>
+
+            </div>
+
+        </div><!--
+
+     --><div class="grid__item">
+
+            <div class="grid  grid--center">
+
+                <div class="grid__item  one-third">
+                    <p class="demo-block">Grid 7.1</p>
+                </div><!--
+
+             --><div class="grid__item  one-third">
+                    <p class="demo-block">Grid 7.2</p>
+                </div>
+
+            </div>
+
+        </div><!--
+
+     --><div class="grid__item">
+
+            <div class="grid  grid--right">
+
+                <div class="grid__item  one-third">
+                    <p class="demo-block">Grid 8.1</p>
+                </div><!--
+
+             --><div class="grid__item  one-third">
+                    <p class="demo-block">Grid 8.2</p>
+                </div>
+
+            </div>
+
+        </div><!--
+
+     --><div class="grid__item">
+
+            <div class="grid">
+
+                <div class="grid__item  one-third">
+                    <p class="demo-block">Grid 9.1</p>
+                </div><!--
+
+             --><div class="grid__item  one-third">
+                    <p class="demo-block">Grid 9.2</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
 </body>
 
 </html>

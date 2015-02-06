@@ -23,6 +23,7 @@ body { max-width:1200px; margin:auto; font-size:19px;}
 .nav-collapse li {
   width: 100%;
   display: block;
+  text-align:center;
 }
 
 .js .nav-collapse {
@@ -49,8 +50,14 @@ body { max-width:1200px; margin:auto; font-size:19px;}
 }
 
 @media screen and (min-width: 40em) {
+  // Style your menu for when its not a mobile menu
   .js .nav-collapse {
     position: relative;
+    background-color:#000;
+  }
+  .nav-collapse li { 
+    display:inline-block!important; 
+    width:auto;
   }
   .js .nav-collapse.closed {
     max-height: none;
