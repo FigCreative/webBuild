@@ -26,7 +26,10 @@
     "jquery": "*",
     "normalize-scss": "*",
     "modernizr": "~2.8.3",
-    "fastclick":"*",
-    "html5shiv,:"*""
+    "fastclick": "*",
+    "html5shiv": "*",
+    "responsive-nav": "viljamis/responsive-nav.js#~1.0.34",
+    "lazyloadxt": "~1.0.5",
+    "ResponsiveSlides.js": "viljamis/ResponsiveSlides.js"
   }
 }
