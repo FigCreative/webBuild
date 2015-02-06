@@ -25,6 +25,8 @@
     "csswizardry-grids": "~2.2.0",
     "jquery": "*",
     "normalize-scss": "*",
-    "modernizr": "~2.8.3"
+    "modernizr": "~2.8.3",
+    "fastclick":"*",
+    "html5shiv,:"*""
   }
 }
