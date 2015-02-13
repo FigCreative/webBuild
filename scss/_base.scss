@@ -1,0 +1,14 @@
+// Base Code
+////////////
+
+html {
+  font-size: 62.5%; /* Sets up the Base 10 stuff */
+}
+body {
+  font-size: 1.6rem;
+  -webkit-font-smoothing: antialiased!important;
+}
+.container {
+  margin:0 auto;
+  max-width:1200px;
+}

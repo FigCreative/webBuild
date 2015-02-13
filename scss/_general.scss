@@ -1,0 +1,10 @@
+// Generic Styles
+//////////////////
+
+.pinkText { color:$pink; }
+.greyText { color:$grey; }
+.textLeft { text-align:left; padding-right:0px!important;}
+.textRight { text-align:right;}
+.borderRight { border-right:solid #9c9b9b 1px;}
+.borderLeft { border-left:solid #9c9b9b 1px;}
+.centerBlock { margin:auto; @include gridle_centered ( ); max-width:752px;}

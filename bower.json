@@ -1,10 +1,10 @@
 {
-  "name": "CreationPlatform",
+  "name": "Dwellings",
   "version": "0.0.0",
   "authors": [
     "David Maran <david@figcreative.co.uk>"
   ],
-  "description": "Setup for web team",
+  "description": "Dwellings Website",
   "keywords": [
     "base",
     "web",
@@ -13,7 +13,7 @@
     "sass"
   ],
   "license": "MIT",
-  "homepage": "http://www.figdigital.co.uk",
+  "homepage": "http://www.figcreative.co.uk",
   "ignore": [
     "**/.*",
     "node_modules",
@@ -22,9 +22,14 @@
     "tests"
   ],
   "dependencies": {
-    "csswizardry-grids": "~2.2.0",
     "jquery": "*",
     "normalize-scss": "*",
-    "modernizr": "~2.8.3"
+    "modernizr": "~2.8.3",
+    "fastclick": "*",
+    "html5shiv": "*",
+    "responsive-nav": "viljamis/responsive-nav.js#~1.0.34",
+    "lazyloadxt": "~1.0.5",
+    "ResponsiveSlides.js": "viljamis/ResponsiveSlides.js",
+    "gridle": "olivierbossel/gridle#~1.3.38"
   }
 }
