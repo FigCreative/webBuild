@@ -2,7 +2,7 @@ Fig Base Production Template
 ======
 Based on Wadehammes Version @ wadehammes/base-foundation-wordpress
 ----
-Uses CSSWizardry Grids, Read more at https://github.com/csswizardry/csswizardry-grids
+Uses Foundation Grids, Read more at https://github.com/csswizardry/csswizardry-grids
 Also includes the standard functions such as Image minification, SASS, JShint and JS uglify.
 
 ####PRIOR TO FIRST USE:

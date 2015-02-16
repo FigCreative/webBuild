@@ -30,6 +30,6 @@
     "responsive-nav": "viljamis/responsive-nav.js#~1.0.34",
     "lazyloadxt": "~1.0.5",
     "ResponsiveSlides.js": "viljamis/ResponsiveSlides.js",
-    "gridle": "olivierbossel/gridle#~1.3.38"
+    "foundation": "~5.5.1"
   }
 }
