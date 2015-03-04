@@ -1,14 +1,17 @@
 // Base Code
 ////////////
-
-html {
-  font-size: 62.5%; /* Sets up the Base 10 stuff */
-}
-body {
-  font-size: 1.6rem;
-  -webkit-font-smoothing: antialiased!important;
+body { 
+ font-family: 'Source Sans Pro', sans-serif;
+ background: url('../../assets/img/background.jpg') top center no-repeat;
 }
 .container {
   margin:0 auto;
   max-width:1200px;
+}
+
+@font-face {
+  font-family: 'FeltpenCom-Medium';
+  src: url('fonts/FeltpenCom-Medium.eot?#iefix') format('embedded-opentype'),  url('fonts/FeltpenCom-Medium.woff') format('woff'), url('fonts/FeltpenCom-Medium.ttf')  format('truetype'), url('fonts/FeltpenCom-Medium.svg#FeltpenCom-Medium') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
