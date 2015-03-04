@@ -1,7 +1,6 @@
 Fig Base Production Template
 ======
-Based on Wadehammes Version @ wadehammes/base-foundation-wordpress
-----
+
 Uses Foundation Grids, Read more at https://github.com/csswizardry/csswizardry-grids
 Also includes the standard functions such as Image minification, SASS, JShint and JS uglify.
 
@@ -32,8 +31,20 @@ In terminal:
 Install the Node Modules into the project, also install the Bower dependencies into the project, and run pre-production grunt:
 <code>$ npm install && bower install && grunt</code>
 
+In the folder Wordpress/themes/YOURTHEME/  Edit your themes to the name of the wordpress theme. also edit this in grunt/watch.js edit 'YOURTHEME'.
+
+All Javascript should be placed in the /js/ folder
+All Images should be placed in the /images/ folder
+All fonts should be placed in the /fonts/ folder
+All SCSS should be edited in /SCSS/ folder.
+
 To watch and compile the files you change (SASS & JS) and update your web page use:
 <code>$ grunt watch</code>
 
 If new images have been added to the folder then run 
 <code>$ grunt newer:imagemin</code>
+
+If something is not working run grunt.
+<code>$ grunt</code>
+
+Wordpress Databse for install in the folder /database/
