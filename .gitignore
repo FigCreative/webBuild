@@ -1,4 +1,20 @@
 node_modules
 bower_components
 /html/assets
-.sass-cache
+.sass-cache/
+
+# Don't add the Local settings file to the repository #
+Wordpress/wp-config-local.php
+ 
+# No need to add the upgrade folder to the repo #
+Wordpress/wp-content/upgrade/*
+ 
+# sitemaps not needed locally #
+Wordpress/sitemap.xml
+Wordpress/sitemap.xml.gz
+ 
+# no need for these #
+readme.html
+license.txt
+.log
+.DS_Store
