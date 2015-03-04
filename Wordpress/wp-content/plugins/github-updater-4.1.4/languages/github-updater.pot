@@ -1,0 +1,246 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: GitHub Updater\n"
+"POT-Creation-Date: 2015-03-01 14:18-0800\n"
+"PO-Revision-Date: 2015-03-01 14:18-0800\n"
+"Last-Translator: Andy Fragen <andy@thefragens.com>\n"
+"Language-Team: Andy Fragen <andy@thefragens.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: mu/ghu-loader.php:55
+msgid "Activated as mu-plugin"
+msgstr ""
+
+#: src/GitHub_Updater/Base.php:375
+msgid ""
+"No changelog is available via GitHub Updater. Create a file <code>CHANGES."
+"md</code> or <code>CHANGELOG.md</code> in your repository."
+msgstr ""
+
+#: src/GitHub_Updater/Base.php:476
+#, php-format
+msgid "Renaming %s to %s"
+msgstr ""
+
+#: src/GitHub_Updater/Base.php:486
+msgid "Rename successful"
+msgstr ""
+
+#: src/GitHub_Updater/Base.php:493
+msgid "Unable to rename downloaded repository."
+msgstr ""
+
+#: src/GitHub_Updater/Base.php:739
+msgid "was not checked."
+msgstr ""
+
+#: src/GitHub_Updater/Base.php:740
+msgid "GitHub Updater Error Code:"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:134 src/GitHub_Updater/Settings.php:67
+msgid "Install Plugin"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:137 src/GitHub_Updater/Settings.php:68
+msgid "Install Theme"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:154
+msgid "Plugin"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:157
+msgid "Theme"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:168
+msgid "GitHub Updater Install"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:175
+msgid "URI"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:184
+msgid "Remote Repository Host"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:193
+msgid "Repository Branch"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:202
+msgid "Private Bitbucket Repository"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:211
+msgid "GitHub Access Token"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:239
+msgid "Enter branch name or leave empty for `master`"
+msgstr ""
+
+#: src/GitHub_Updater/Install.php:281
+msgid "Enter GitHub Access Token for private GitHub repositories."
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:66 src/GitHub_Updater/Settings.php:405
+msgid "Settings"
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:79 src/GitHub_Updater/Settings.php:87
+msgid "GitHub Updater Settings"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: src/GitHub_Updater/Settings.php:80 src/GitHub_Updater/Settings.php:88
+#: src/GitHub_Updater/Settings.php:125
+msgid "GitHub Updater"
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:129
+msgid "Saved."
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:174
+msgid "GitHub Private Settings"
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:185
+msgid "Bitbucket Private Settings"
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:192
+msgid "Bitbucket Username"
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:201
+msgid "Bitbucket Password"
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:214
+msgid "Bitbucket Private Repositories"
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:226
+msgid "No private repositories are installed."
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:271
+msgid "Theme:"
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:331
+msgid "Enter your GitHub Access Token. Leave empty for public repositories."
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:338
+msgid ""
+"Check box if private repository. Leave unchecked for public repositories."
+msgstr ""
+
+#: src/GitHub_Updater/Settings.php:345
+msgid "Enter your personal Bitbucket username and password."
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:205
+msgid "Theme is up-to-date!"
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:209
+msgid "<strong>Rollback to:</strong>"
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:224
+msgid "No previous tags to rollback to."
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:233 src/GitHub_Updater/Theme.php:241
+#, php-format
+msgid "GitHub Updater shows a new version of %1$s available."
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:233
+#, php-format
+msgid "View version %4$s details"
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:233
+msgid "Automatic update is unavailable for this theme."
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:241
+#, php-format
+msgid ""
+"<a %2$s>View version %3$s details</a> or <a href=\"%4$s\">update now</a>."
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:321
+msgid "There is a new version of"
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:321
+msgid "available now."
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:321
+msgid "View version"
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:321
+msgid "details"
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:321
+msgid "or"
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:321
+msgid "update now"
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:333
+msgid "Current version is up to date. Try"
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:333
+msgid "another version?"
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:342
+msgid "Choose a Version"
+msgstr ""
+
+#: src/GitHub_Updater/Theme.php:345
+msgid "Install"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/afragen/github-updater"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"A plugin to automatically update GitHub or Bitbucket hosted plugins and "
+"themes into WordPress. Plugin class based upon <a href=\"https://github.com/"
+"codepress/github-plugin-updater\">codepress/github-plugin-updater</a>. Theme "
+"class based upon <a href=\"https://github.com/WordPress-Phoenix/whitelabel-"
+"framework\">Whitelabel Framework</a> modifications."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Andy Fragen"
+msgstr ""
