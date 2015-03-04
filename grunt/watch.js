@@ -9,7 +9,11 @@ module.exports = {
             },
             css: {
                 files: ['html/assets/css/style.css'],
-                tasks: ['cssmin']
+                tasks: ['cssmin', 'sync']
+            },
+            js: {
+                files: ['js/script.js'],
+                tasks: ['concat', 'jshint', 'uglify', 'sync']
             },
             options: {
       livereload: true,
